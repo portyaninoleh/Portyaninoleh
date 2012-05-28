@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %} extended hello {% endblock %}
+
+{% block content %}
+<p>Host</p> {{ host }}
+<p>Path</p> {{ path }}
+<p>Full_path</p> {{full_path}}
+<p>user_agent</p> {{ user_agent }}
+{% endblock %}
