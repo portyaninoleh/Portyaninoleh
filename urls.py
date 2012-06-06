@@ -1,13 +1,13 @@
 from django.conf.urls.defaults import patterns, include, url
-from mysite.views import hello, currentTime, hoursAhead, currentTimeTemplate, timeRender, get_request, athlets, search,  contact
+from Portyaninoleh.views import hello, currentTime, hoursAhead, currentTimeTemplate, timeRender, get_request, athlets, search,  contact
 from django.contrib import admin
 admin.autodiscover()
 # Uncomment the next two lines to enable the admin:
 
 urlpatterns = patterns('',
     # Examples:
-    # url(r'^$', 'mysite.views.home', name='home'),
-    # url(r'^mysite/', include('mysite.foo.urls')),
+    # url(r'^$', 'Portyaninoleh.views.home', name='home'),
+    # url(r'^Portyaninoleh/', include('Portyaninoleh.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

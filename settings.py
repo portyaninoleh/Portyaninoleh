@@ -1,4 +1,4 @@
-# Django settings for mysite project.
+# Django settings for Portyaninoleh project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -100,10 +100,10 @@ MIDDLEWARE_CLASSES = (
     #'django.contrib.messages.middleware.MessageMiddleware',
 )
 
-ROOT_URLCONF = 'mysite.urls'
+ROOT_URLCONF = 'Portyaninoleh.urls'
 
 TEMPLATE_DIRS = (
-    '/home/oleh/.virtualenvs/test/bin/mysite/template/',
+    '/home/oleh/.virtualenvs/test/bin/Portyaninoleh/template/',
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -120,7 +120,6 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
      'django.contrib.admindocs',
-    'mysite.books',
 )
 
 # A sample logging configuration. The only tangible logging
